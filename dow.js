@@ -11,3 +11,18 @@ function dow(){
             return;
         }
     }    
+
+    function gender() {
+        let gender;
+        if ((form.gender[0].checked == true) || (form.gender[1].checked == true)) {
+            if (form.gender[0].checked == true) {
+                gender = 0;
+            } else if (form.gender[1].checked == true) {
+                gender = 1;
+            }
+            return gender;
+        } else {
+            alert("Please select your gender!");
+            return;
+        }
+    }
