@@ -10,12 +10,15 @@ p{
     flex-direction: row;
 }
 
-#male{
+#males{
     margin-left: 70px;
 }
-#female{
+#females{
     margin-left:200px;
 }
 li{
     font-size: 18px;
+}
+#form{
+    font-size: 15px;
 }
