@@ -26,3 +26,19 @@ function dow(){
             return;
         }
     }
+
+    function checkName() {
+        let selectedGender = gender();
+        let dayOfWeek = dow();
+        if ((!!dayOfWeek.valueOf() === true) || (dayOfWeek == 0))  {
+            if (selectedGender === 0) {
+                let result = "Your Akan name is " + maleNames[dayOfWeek] + ".";
+                document.getElementById("result").innerHTML = result;
+            } else if (selectedGender === 1) {
+                let result = "Your Akan name is " + femaleNames[dayOfWeek] + ".";
+                document.getElementById("result").innerHTML = result;
+            }
+        }else{
+            return;
+        }
+    }
