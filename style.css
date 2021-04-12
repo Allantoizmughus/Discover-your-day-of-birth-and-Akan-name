@@ -1,5 +1,21 @@
 p{
     font-size: larger;
-    color: red;
+    color: blue;
     font-style: italic;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+#list{
+    display: flex;
+    flex-direction: row;
+}
+
+#male{
+    margin-left: 70px;
+}
+#female{
+    margin-left:200px;
+}
+li{
+    font-size: 18px;
 }
