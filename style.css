@@ -22,3 +22,10 @@ li{
 #form{
     font-size: 15px;
 }
+h1{
+    font-size: 25px;
+    background-color: cornflowerblue;
+}
+p #result{
+    font-size: 50px;
+}
