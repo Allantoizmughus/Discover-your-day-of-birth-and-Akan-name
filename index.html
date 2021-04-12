@@ -5,21 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DAY OF BIRTH</title>
+    <link rel="stylesheet" tpye="text/css" href="style.css">
     
 </head>
 <body>
     <h1>HOW TO CHECK THE DAY OF THE WEEK YOU WERE BORN.</h1>
 
     <form>
-        Century:<input type="text" id="century"><br><br>
-        Year:<input type="text" id="Year"><br><br>
-        Month:<input type="text" id="month"><br><br>
-        Day:<input type="text" id="day"><br><br>
-        Operator:
-        <select id="operator">
-            <option value="run">Run</option>
-        </select>
-
+        label for="date">Select date of birth:</label><br>
+        <input type="date" name="date" id="date" /> <br />
         <button type="button" onclick="dow()">Check</button>
     </form>
 
