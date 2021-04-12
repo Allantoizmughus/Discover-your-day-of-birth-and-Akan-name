@@ -26,10 +26,13 @@ li{
 }
 form{
     font-size: 25px;
+    background-color: rgb(236, 236, 157);
+    width: 250px;
+    margin-left: 50px;
 }
 h1{
     font-size: 25px;
-    background-color: cornflowerblue;
+    background-color: cornflowerblue; 
 }
 #answer>p{
     font-size: 30px;
