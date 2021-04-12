@@ -9,4 +9,6 @@ function dow() {
         return ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7;
 
     }
+    var dayOfTheWeek=Math.abs((dow(20, 07, 05, 10).toFixed()));
+    document.querySelector("#results").innerHTML=dayOfTheWeek;
 }
