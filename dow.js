@@ -16,7 +16,7 @@ function dow(){
         }
     }    
 
-    function gender() {
+    function checkGender() {
         let gender;
         if ((form.gender[0].checked == true) || (form.gender[1].checked == true)) {
             if (form.gender[0].checked == true) {
@@ -32,7 +32,7 @@ function dow(){
     }
 
     function checkName() {
-        let selectedGender = gender();
+        let selectedGender = checkGender();
         let dayOfWeek = dow();
         if ((!!dayOfWeek.valueOf() === true) || (dayOfWeek == 0))  {
             if (selectedGender === 0) {

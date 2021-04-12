@@ -11,18 +11,19 @@
 <body>
     <h1>HOW TO CHECK THE DAY OF THE WEEK YOU WERE BORN.</h1>
 
-    <form>
+    <form id="form">
         <label for="date">Select date of birth:</label><br>
         <input type="date" name="date" id="date" /> <br />
         <label for="gender">Select Your Gender.</label> <br />
         <input type="radio" name="gender" id="male" value="male" /> Male
         <br />
         <input type="radio" name="gender" id="female" /> Female <br />
-        <button type="button" onclick="checkName()">Check</button>
+        <button type="button" onclick="checkName()">Check</button> <br />
     </form>
 
     <p id="result"></p>
-    
+
     <script src="dow.js"></script>
+    
 </body>
 </html>
